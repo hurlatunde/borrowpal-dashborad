@@ -310,20 +310,20 @@
 <div class="mobile-menu-left-overlay"></div>
 <nav class="side-menu side-menu-compact">
     <ul class="side-menu-list">
-        <li class="blue-dirty opened">
-            <a href="#">
+        <li class="blue-dirty">
+            <a href="index.html">
                 <i class="font-icon font-icon-home"></i>
                 <span class="lbl">Overview</span>
             </a>
         </li>
-        <li class="blue-dirty">
+        <li class="blue-dirty opened">
             <a href="profile.html">
                 <i class="font-icon font-icon-user"></i>
                 <span class="lbl">Profile</span>
             </a>
         </li>
         <li class="blue-dirty">
-            <a href="contacts.html">
+            <a href="#">
                 <i class="font-icon font-icon-users-group"></i>
                 <span class="lbl">Contacts</span>
             </a>
@@ -340,9 +340,9 @@
                 <span class="lbl">Community</span>
             </a>
         </li>
-        <li class="blue-dirty opened">
+        <li class="blue-dirty">
             <a href="#">
-                <i class="font-icon font-icon-comments active"></i>
+                <i class="font-icon font-icon-comments"></i>
                 <span class="lbl">Messages</span>
             </a>
         </li>
@@ -364,359 +364,191 @@
 <div class="page-content">
     <div class="container-fluid">
 
-        <div class="">
-            <div class="col-xl-12">
-                <div>
-                    <button type="button" class="btn btn-rounded btn-inline btn-danger">Overview</button>
-                    <a href="todo.html" class="btn btn-rounded btn-inline btn-danger-outline">Todo's</a>
-                    <a href="noti.html" class="btn btn-rounded btn-inline btn-danger-outline">Notification</a>
-                </div>
-                <br>
-            </div>
-        </div>
-
-        <div class="">
-            <div class="col-xl-12">
-                <header class="section-header">
-                    <div class="tbl">
-                        <div class="tbl-row">
-                            <div class="tbl-cell">
-                                <h3>System Overview</h3>
-                                <ol class="breadcrumb breadcrumb-simple">
-                                    <li class="active">Overview</li>
-                                </ol>
-                            </div>
-                        </div>
+        <header class="section-header">
+            <div class="tbl">
+                <div class="tbl-row">
+                    <div class="tbl-cell">
+                        <h3>Profile</h3>
+                        <ol class="breadcrumb breadcrumb-simple">
+                            <li><a href="#">Overview</a></li>
+                            <li class="active">Profile</li>
+                        </ol>
                     </div>
-                </header>
+                </div>
             </div>
-        </div>
+        </header>
 
         <div>
-            <div>
-                <div class="col-xl-9">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <article class="statistic-box red">
-                                        <div>
-                                            <div class="number">26</div>
-                                            <div class="caption">
-                                                <div>Open loans</div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div><!--.col-->
-                                <div class="col-sm-3">
-                                    <article class="statistic-box purple">
-                                        <div>
-                                            <div class="number">12</div>
-                                            <div class="caption">
-                                                <div>Closes loans</div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div><!--.col-->
-                                <div class="col-sm-3">
-                                    <article class="statistic-box yellow">
-                                        <div>
-                                            <div class="number">104</div>
-                                            <div class="caption">
-                                                <div>New clients</div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div><!--.col-->
-                                <div class="col-sm-3">
-                                    <article class="statistic-box green">
-                                        <div>
-                                            <div class="number">29</div>
-                                            <div class="caption">
-                                                <div>Here is an example of a long name</div>
-                                            </div>
-                                        </div>
-                                    </article>
-                                </div><!--.col-->
-                            </div><!--.row-->
-                        </div><!--.col-->
+            <div class="row">
+                <div class="col-xl-3 col-lg-4">
+                    <aside class="profile-side" style="margin: 0">
+                        <section class="box-typical profile-side-user">
+                            <button type="button" class="avatar-preview avatar-preview-128">
+                                <img src="img/avatar-1-256.png" alt="">
+                                <span class="update">
+									<i class="font-icon font-icon-picture-double"></i>
+									Update photo
+								</span>
+                                <input type="file">
+                            </button>
 
-                        <div class="col-xl-12 dahsboard-column">
-                            <section class="box-typical box-typical-dashboard panel panel-default scrollable">
-                                <header class="box-typical-header panel-heading">
-                                    <h3 class="panel-title">Recent Requests</h3>
-                                </header>
-                                <div class="box-typical-body panel-body">
-                                    <table class="tbl-typical">
-                                        <tr>
-                                            <th>
-                                                <div>Status</div>
-                                            </th>
-                                            <th>
-                                                <div>Clients</div>
-                                            </th>
-                                            <th align="center">
-                                                <div>Requests#</div>
-                                            </th>
-                                            <th align="center">
-                                                <div>Date</div>
-                                            </th>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <span class="label label-primary">Paid</span>
-                                                <span class="label label-success">Active</span>
-                                            </td>
-                                            <td>John Doe</td>
-                                            <td align="center">3435362</td>
-                                            <td class="color-blue-grey" nowrap align="center"><span class="semibold">Today</span>
-                                                8:30
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <span class="label label-primary">Paid</span>
-                                                <span class="label label-success">Active</span>
-                                            </td>
-                                            <td>Thomas Bayer</td>
-                                            <td align="center">3435362</td>
-                                            <td class="color-blue-grey" nowrap align="center"><span class="semibold">Today</span>
-                                                16:30
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <span class="label label-primary">Paid</span>
-                                                <span class="label label-default">Inactive</span>
-                                            </td>
-                                            <td>Nicolas Karabat</td>
-                                            <td align="center">3435362</td>
-                                            <td class="color-blue-grey" nowrap align="center"><span
-                                                    class="semibold">Yesterday</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <span class="label label-default">Unpaid</span>
-                                                <span class="label label-default">Inactive</span>
-                                            </td>
-                                            <td>Alexandre Pome</td>
-                                            <td align="center">3435362</td>
-                                            <td class="color-blue-grey" nowrap align="center">23th May</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <span class="label label-primary">Paid</span>
-                                                <span class="label label-success">Active</span>
-                                            </td>
-                                            <td>John Doe</td>
-                                            <td align="center">3435362</td>
-                                            <td class="color-blue-grey" nowrap align="center"><span class="semibold">Today</span>
-                                                8:30
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <span class="label label-primary">Paid</span>
-                                                <span class="label label-success">Active</span>
-                                            </td>
-                                            <td>Thomas Bayer</td>
-                                            <td align="center">3435362</td>
-                                            <td class="color-blue-grey" nowrap align="center"><span class="semibold">Today</span>
-                                                16:30
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <span class="label label-primary">Paid</span>
-                                                <span class="label label-default">Inactive</span>
-                                            </td>
-                                            <td>Nicolas Karabat</td>
-                                            <td align="center">3435362</td>
-                                            <td class="color-blue-grey" nowrap align="center"><span
-                                                    class="semibold">Yesterday</span></td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <span class="label label-default">Unpaid</span>
-                                                <span class="label label-default">Inactive</span>
-                                            </td>
-                                            <td>Alexandre Pome</td>
-                                            <td align="center">3435362</td>
-                                            <td class="color-blue-grey" nowrap align="center">23th May</td>
-                                        </tr>
-                                    </table>
-                                </div><!--.box-typical-body-->
-                            </section><!--.box-typical-dashboard-->
-                            <section class="box-typical box-typical-dashboard panel panel-default scrollable">
-                                <header class="box-typical-header panel-heading">
-                                    <h3 class="panel-title">Comments</h3>
-                                </header>
-                                <div class="box-typical-body panel-body">
-                                    <article class="comment-item">
-                                        <div class="user-card-row">
-                                            <div class="tbl-row">
-                                                <div class="tbl-cell tbl-cell-photo">
-                                                    <a href="#">
-                                                        <img src="img/photo-64-1.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="tbl-cell">
-                                                    <span class="user-card-row-name"><a href="#">Matt McGill</a></span>
-                                                </div>
-                                                <div class="tbl-cell tbl-cell-date">
-                                                    <span class="semibold">Today</span>
-                                                    12:45
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="comment-item-txt">
-                                            <p>That’s a great idea! I’m sure we could start this project as soon as
-                                                possible.</p>
-                                            <p>Let’s meet tomorow!</p>
-                                        </div>
-                                        <div class="comment-item-meta">
-                                            <a href="#" class="star">
-                                                <i class="font-icon font-icon-star"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="font-icon font-icon-re"></i>
-                                            </a>
-                                            <!--Реализация кнопками-->
-                                            <!--<button type="button" class="star">-->
-                                            <!--<i class="font-icon font-icon-star"></i>-->
-                                            <!--</button>-->
-                                            <!--<button type="button">-->
-                                            <!--<i class="font-icon font-icon-re"></i>-->
-                                            <!--</button>-->
-                                        </div>
-                                    </article>
-                                    <article class="comment-item">
-                                        <div class="user-card-row">
-                                            <div class="tbl-row">
-                                                <div class="tbl-cell tbl-cell-photo">
-                                                    <a href="#">
-                                                        <img src="img/photo-64-2.jpg" alt="">
-                                                    </a>
-                                                </div>
-                                                <div class="tbl-cell">
-                                                    <span class="user-card-row-name"><a href="#">Tim Collins</a></span>
-                                                </div>
-                                                <div class="tbl-cell tbl-cell-date">
-                                                    <span class="semibold">Today</span>
-                                                    12:45
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="comment-item-txt">
-                                            <p>That’s a great idea! I’m sure we could start this project as soon as
-                                                possible.</p>
-                                            <p>Let’s meet tomorow!</p>
-                                        </div>
-                                        <div class="comment-item-meta">
-                                            <a href="#" class="star active">
-                                                <i class="font-icon font-icon-star"></i>
-                                            </a>
-                                            <a href="#">
-                                                <i class="font-icon font-icon-re"></i>
-                                            </a>
-                                            <!--Реализация кнопками-->
-                                            <!--<button type="button" class="star">-->
-                                            <!--<i class="font-icon font-icon-star"></i>-->
-                                            <!--</button>-->
-                                            <!--<button type="button">-->
-                                            <!--<i class="font-icon font-icon-re"></i>-->
-                                            <!--</button>-->
-                                        </div>
-                                    </article>
-                                </div><!--.box-typical-body-->
-                            </section>
-                        </div><!--.col-->
-                    </div><!--.row-->
+                            <div>
+                                <h3>@DameAdaobi</h3>
+                                <p>Member since 2013</p>
+                            </div>
+                            <div class="bottom-txt">Standing Request: 40</div>
+                        </section>
+
+                        <section class="box-typical profile-side-stat">
+                            <div class="tbl">
+                                <div class="tbl-row">
+                                    <div class="tbl-cell">
+                                        <span class="number">94</span>
+                                        Loan
+                                    </div>
+                                    <div class="tbl-cell">
+                                        <span class="number">112</span>
+                                        Request
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="box-typical">
+                            <header class="box-typical-header-sm bordered">About</header>
+                            <div class="box-typical-inner">
+                                <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula
+                                    porta felis euismod semper.</p>
+                            </div>
+                        </section>
+
+                        <section class="box-typical">
+                            <header class="box-typical-header-sm bordered">Info</header>
+                            <div class="box-typical-inner">
+                                <p class="line-with-icon">
+                                    <i class="font-icon font-icon-pin-2"></i>
+                                    New York
+                                </p>
+                                <p class="line-with-icon">
+                                    <i class="font-icon font-icon-users-two"></i>
+                                    Group1, Group2
+                                </p>
+                                <p class="line-with-icon">
+                                    <i class="font-icon font-icon-case-3"></i>
+                                    Symfony, PHP, JavaScript, Java, Android, SQL, OOP, OOD
+                                </p>
+                                <p class="line-with-icon">
+                                    <i class="font-icon font-icon-learn"></i>
+                                    VSU, Compiter Science, Master
+                                </p>
+                                <p class="line-with-icon">
+                                    <i class="font-icon font-icon-github"></i>
+                                    <a href="#">Nickname</a>
+                                </p>
+                                <p class="line-with-icon">
+                                    <i class="font-icon font-icon-earth"></i>
+                                    <a href="#">example.com</a>
+                                </p>
+                                <p class="line-with-icon">
+                                    <i class="font-icon font-icon-calend"></i>
+                                    Registered 8 month ago
+                                </p>
+                            </div>
+                        </section>
+
+                    </aside><!--.profile-side-->
                 </div>
-                <div class="col-xl-3">
-                    <section class="widget widget-activity">
-                        <header class="widget-header">
-                            Activity
-                        </header>
-                        <div>
-                            <div class="widget-activity-item">
-                                <div class="user-card-row">
-                                    <div class="tbl-row">
-                                        <div class="tbl-cell tbl-cell-photo">
-                                            <a href="#">
-                                                <img src="img/photo-64-2.jpg" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="tbl-cell">
-                                            <p>
-                                                <a href="#" class="semibold">Nina Jones</a>
-                                                added a new product
-                                                <a href="#">Free UI Kit</a>
-                                            </p>
-                                            <p>Just Now</p>
-                                        </div>
+                <div class="col-xl-9 col-lg-8">
+                    <div>
+                        <section class="box-typical profile-settings">
+                            <section class="box-typical-section">
+                                <div class="form-group row">
+                                    <div class="col-xl-2">
+                                        <label class="form-label">Name</label>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <input class="form-control" type="text" value="Dan Counsell">
                                     </div>
                                 </div>
-                            </div>
-                            <div class="widget-activity-item">
-                                <div class="user-card-row">
-                                    <div class="tbl-row">
-                                        <div class="tbl-cell tbl-cell-photo">
-                                            <a href="#">
-                                                <img src="img/avatar-1-64.png" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="tbl-cell">
-                                            <p>
-                                                <a href="#" class="semibold">James Smith</a>
-                                                commpleted task
-                                                <a href="#">Free PSD Template</a>
-                                            </p>
-                                            <p>40 minutes ago</p>
-                                        </div>
+                                <div class="form-group row">
+                                    <div class="col-xl-2">
+                                        <label class="form-label">Position</label>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <input class="form-control" type="text" value="Company founder">
                                     </div>
                                 </div>
-                            </div>
-                            <div class="widget-activity-item">
-                                <div class="user-card-row">
-                                    <div class="tbl-row">
-                                        <div class="tbl-cell tbl-cell-photo">
-                                            <a href="#">
-                                                <img src="img/avatar-2-64.png" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="tbl-cell">
-                                            <p>
-                                                <a href="#" class="semibold">Alex Clooney</a>
-                                                commpleted task
-                                                <a href="#">Sumu Website</a>
-                                            </p>
-                                            <p>1 hours ago</p>
-                                        </div>
+                                <div class="form-group row">
+                                    <div class="col-xl-2">
+                                        <label class="form-label">About</label>
+                                    </div>
+                                    <div class="col-xl-6">
+												<textarea rows="8" class="form-control">Maecenas sed diam eget risus varius blandit sit amet non magna.
+Vestibulum id ligula porta felis euismod semper.</textarea>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="widget-activity-item">
-                                <div class="user-card-row">
-                                    <div class="tbl-row">
-                                        <div class="tbl-cell tbl-cell-photo">
-                                            <a href="#">
-                                                <img src="img/avatar-3-64.png" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="tbl-cell">
-                                            <p>
-                                                <a href="#" class="semibold">Nina Jones</a>
-                                                added a new product
-                                                <a href="#">Free UI Kit</a>
-                                            </p>
-                                            <p>Just Now</p>
-                                        </div>
+                                <div class="form-group row">
+                                    <div class="col-xl-2">
+                                        <label class="form-label">Recomendation</label>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <input class="form-control" type="text" value="All stream, Connected Apps, Photos, Most recent">
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </section>
+                            </section>
+                            <section class="box-typical-section">
+                                <header class="box-typical-header-sm">Info</header>
+                                <div class="form-group row">
+                                    <div class="col-xl-2">
+                                        <label class="form-label">
+                                            <i class="font-icon font-icon-pin-2"></i>
+                                            City
+                                        </label>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <input class="form-control" type="text" value="New York">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-xl-2">
+                                        <label class="form-label">
+                                            <i class="font-icon font-icon-users-two"></i>
+                                            Group
+                                        </label>
+                                    </div>
+                                    <div class="col-xl-4">
+                                        <input class="form-control" type="text" value="Group1, Group2">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-xl-2">
+                                        <label class="form-label">
+                                            <i class="font-icon font-icon-case-3"></i>
+                                            Code
+                                        </label>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <input class="form-control" type="text" value="Symfony, PHP, JavaScript, Java, Android, SQL, OOP, OOD">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-xl-2">
+                                        <label class="form-label">
+                                            <i class="font-icon font-icon-learn"></i>
+                                            Edication
+                                        </label>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <input class="form-control" type="text" value="VSU, Compiter Science, Master">
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="box-typical-section profile-settings-btns">
+                                <button type="submit" class="btn btn-rounded">Save Changes</button>
+                                <button type="button" class="btn btn-rounded btn-grey">Cancel</button>
+                            </section>
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
